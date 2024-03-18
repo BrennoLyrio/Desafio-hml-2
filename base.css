@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+    background-color: rgb(228, 229, 224);
+}
+.header {
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    max-height: 150px;
+    text-align: center;
+
+}
+
+.rodape{
+    margin-top: 0px;
+}
